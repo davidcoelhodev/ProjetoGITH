@@ -311,7 +311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1120757092}
-  - component: {fileID: 1120757091}
+  - component: {fileID: 1120757093}
   m_Layer: 0
   m_Name: condicao
   m_TagString: Untagged
@@ -319,20 +319,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1120757091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120757090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70909f67c7b635b4181193f82d757548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _i1: 1
-  _i2: 1
 --- !u!4 &1120757092
 Transform:
   m_ObjectHideFlags: 0
@@ -348,3 +334,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120757093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120757090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70909f67c7b635b4181193f82d757548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _i1: 6
+  _i2: 1
+  _t1: 
+  _t2: "multiplica\xE7\xE3o"
+  _b1: 0
+  _b2: 0

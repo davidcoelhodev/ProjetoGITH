@@ -38,11 +38,11 @@ public class condicionais : MonoBehaviour
         if (_t1 == "Multiplicação")
         {
 
-            Debug.Log(_i1 * _i2);
+           // Debug.Log(_i1 * _i2);
         }
         else 
         {
-            Debug.Log( _i1 + _i2);
+            //Debug.Log( _i1 + _i2);
         }
 
 
@@ -51,13 +51,13 @@ public class condicionais : MonoBehaviour
         _i1 = _i2;
         
         if (_i1==1) {   // SE _i1 for igual a 1 
-            Debug.Log("FASE 1 Liberada");
+            //Debug.Log("FASE 1 Liberada");
 
         }
 
         else // se não for bloqueada  
         {
-            Debug.Log(" fase 1 bloqueada");
+            //Debug.Log(" fase 1 bloqueada");
         }
 
         if (_i1 == 2)
@@ -70,7 +70,7 @@ public class condicionais : MonoBehaviour
             _t1 = "PASSAGEM BLOQUEADA";
            
         }
-        Debug.Log(_t1);
+       // Debug.Log(_t1);
 
         // SE A _I1 for igual a 2 
         // a _t1 escreve passagem liberada 
@@ -79,7 +79,7 @@ public class condicionais : MonoBehaviour
 
         if (_t1 == _t2 && _b1==true)
         {
-            Debug.Log("ENTRA NA FASE");
+           // Debug.Log("ENTRA NA FASE");
 
         }
 
