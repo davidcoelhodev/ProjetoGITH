@@ -41,7 +41,8 @@ public class CondionaisCombinadas : MonoBehaviour
         if (_check== true&& _number==1)
         {
             _cube.SetActive(true);
-            _cubRig.useGravity = false;
+           // _cubRig.use
+             //   Gravity = false;
             _cubRig.isKinematic = true;
         }
         else if ( _check== true && _number==2)
